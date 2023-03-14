@@ -471,7 +471,7 @@ h4{
     /* color */
     background-color: rgb(88, 88, 88);
     /* forma */
-    height: 400px;
+    height: 300px;
     width: 33vw;
 
     margin: 20px;
@@ -482,7 +482,7 @@ h4{
     /* color */
     background-color: rgb(99, 140, 214);
     /* forma */
-    height: 400px;
+    height: 300px;
     /* margen */
     margin: 20px;
     /* Con flex-grow se queda con todo el espacio que sobra*/
@@ -590,4 +590,35 @@ a:link, a:visited, a:active {
     column-count: 2;
     margin: 50px;
     column-gap: 70px;
+}
+
+
+/* PÁGINA CONTACTAR */
+
+.container--formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 600px;
+    gap: 50px
+}
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+}
+
+.formulario--Comentarios, .formulario--input{
+    background-color: rgb(217, 217, 217);
+    width: 280px;
+    padding: 7px;
+}
+
+.formulario--Comentarios{
+    height: 200px;
+}
+
+.condicionesUso{
+width: 280px;
 }

@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbarExtendido">
+        <nav class="navbarSimple">
+            <!-- PICTURE -->
+            <picture>
+                <!-- Smartphone -->
+                <source srcset="
+                ./img/smartphone/imagen@1x.png 1x,
+                ./img/smartphone/imagen@2x.png 2x,
+                ./img/smartphone/imagen@3x.png 3x"
+                media="(min-width:320px) and (orientation:portrait)">
+                
+                <!-- Desktop -->
+                <source srcset="
+                ./img/desktop/imagen@1x.png 1x,
+                ./img/desktop/imagen@2x.png 2x"
+                media="(min-width:1000px)">
+
+                <img class="navbarSimple__logo" src="" alt="Foto de perfil"> 
+            </picture>
+
+            <!-- ENLANCES -->
+            <ul class="navbarSimple__links">
+                <a href="index.html">
+                    <img class="navbarSimple__links__svg" src="./img/svg/image.svg"></img>
+                    <span class="navbarSimple__links__span">Inicio</span>
+                </a>
+                <a href="servicios.html">
+                    <img class="navbarSimple__links__svg"  src="./img/svg/image2.svg"></img>
+                    <span class="navbarSimple__links__span">Servicios</span>
+                </a>
+                <a href="nosotros.html">
+                    <img class="navbarSimple__links__svg"  src="./img/svg/image3.svg"></img>
+                    <span class="navbarSimple__links__span">Nosotros</span>
+                </a>
+                <a href="contactar.html">
+                    <img class="navbarSimple__links__svg"  src="./img/svg/image4.svg"></img>
+                    <span class="navbarSimple__links__span">Contactar</span>
+                </a>
+            </ul>
+        </nav>
+    </header>
+    
+    <section class="container--formulario">
+        <section class="formulario">
+            <label>Nombre</label>
+            <input class="formulario--input" type="text" name="nombre" required>
+            <label>Apellidos</label>
+            <input class="formulario--input" type="text" name="apellidos" required>
+            <label>Email</label>
+            <input class="formulario--input" type="text" name="email" required>
+            <label>Comentarios</label>
+            <input class="formulario--Comentarios" type="text" name="comentarios" required>
+    
+        <div class="boton--formulario"><input class="btnFormulario" type="submit" value="Enviar"></div>
+        </section>
+        <section class="condicionesUso">
+            <h5>CONDICIONES DE USO Y PRIVACIDAD:</h5>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti est repudiandae quibusdam earum saepe quisquam. Vitae blanditiis laboriosam commodi porro recusandae adipisci? Tenetur, rem voluptatum sunt earum eveniet cum ratione! Quisquam veniam voluptate unde, recusandae nam magni ipsa quam beatae at corrupti ex quia nihil iste. Quidem ut cupiditate quam unde pariatur placeat quaerat accusantium minima? Fuga rerum eligendi explicabo dolore, voluptate nulla. Repellat, vitae nulla. Incidunt eius sit laborum optio voluptates dolore provident dolorum, cupiditate ratione cum, est autem labore sequi similique. Quas, beatae. Optio, molestiae ducimus pariatur ea assumenda quidem incidunt ab, adipisci odio facere sunt, placeat aliquam.</p>
+        </section>
+    </section>
+
+        <!-- FOOTER -->
+    <!-- Zona extendida -->
+    <div class="footerExtendido"></div>
+    <!-- Zona Centrada -->
+    <footer class="footerSimple">
+        <!-- PICTURE -->
+        <picture>
+            <!-- Smartphone -->
+            <source srcset="
+            ./img/smartphone/imagen@1x.png 1x,
+            ./img/smartphone/imagen@2x.png 2x,
+            ./img/smartphone/imagen@3x.png 3x"
+            media="(min-width:320px) and (orientation:portrait)">
+            
+            <!-- Desktop -->
+            <source srcset="
+            ./img/desktop/imagen@1x.png 1x,
+            ./img/desktop/imagen@2x.png 2x"
+            media="(min-width:1000px)">
+
+            <img class="footerSimple__logo" src="" alt="Foto de perfil"> 
+
+        </picture>
+        <!-- ENLANCES -->
+        <ul class="footerSimple__links">
+            <a href="index.html"><li>Inicio</li></a>
+            <a href="servicios.html"><li>Servicios</li></a>
+            <a href="nosotros.html"><li>Nosotros</li></a>
+            <a href="contactar.html"><li>Contactar</li></a>
+        </ul>
+
+        <!-- Copyright -->
+        <h6 class="footerSimple__copy">&copy;Copyright 2023</h6>
+    </footer>
+</div>
+    <!-- JS -->
+    <script src="index.js"></script>
+</body>
+</html>
