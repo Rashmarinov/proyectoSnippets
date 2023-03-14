@@ -445,3 +445,50 @@ h4{
         align-items: center;
     }
 }
+
+/* Contenedor */
+.containerZigZag{
+    /* poner altura falsa */
+
+    /* fondo de la web */
+    background-color: white;
+    /* Ancho controlado */
+    max-width: 1366px;
+    /* Siempre en el centro de las pantallas */
+    margin: 0 auto;    
+    /* margenes */
+    box-sizing: border-box;
+
+    text-align: center;
+}
+
+.fila1, .fila2{
+    display: flex;
+    align-items: center;
+}
+
+.cuadradoGris{
+    /* color */
+    background-color: rgb(88, 88, 88);
+    /* forma */
+    height: 400px;
+    width: 33vw;
+
+    margin: 20px;
+}
+
+
+.rectanguloAzul{
+    /* color */
+    background-color: rgb(99, 140, 214);
+    /* forma */
+    height: 400px;
+    /* margen */
+    margin: 20px;
+    /* Con flex-grow se queda con todo el espacio que sobra*/
+    flex-grow: 1;
+}
+
+.reverso{
+    flex-flow: row-reverse wrap;
+}
