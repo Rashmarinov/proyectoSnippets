@@ -530,3 +530,47 @@ h4{
 .figcaption--circuloAzul{
     text-align: center;
 }
+
+.footerExtendido{
+    width: 100vw;
+}
+
+.footerSimple__logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-top: 20px;
+}
+.footerSimple{
+    max-width: 1366px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgb(217, 217, 217);
+    font-size: 20px;
+}
+
+.footerSimple__links{
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 3.125rem;
+    margin: 50px 0;
+}
+
+.footerSimple__copy{
+    font-size: 20px;
+    color: #6a6a6a;
+}
+
+@media only screen and (min-width:1000px){
+    .footerSimple{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footerSimple__links{
+        flex-direction: row;
+    }
+}

@@ -106,6 +106,41 @@
         </figure>
         </div>
 
+        <!-- FOOTER -->
+    <!-- Zona extendida -->
+    <div class="footerExtendido"></div>
+    <!-- Zona Centrada -->
+    <footer class="footerSimple">
+        <!-- PICTURE -->
+        <picture>
+            <!-- Smartphone -->
+            <source srcset="
+            ./img/smartphone/imagen@1x.png 1x,
+            ./img/smartphone/imagen@2x.png 2x,
+            ./img/smartphone/imagen@3x.png 3x"
+            media="(min-width:320px) and (orientation:portrait)">
+            
+            <!-- Desktop -->
+            <source srcset="
+            ./img/desktop/imagen@1x.png 1x,
+            ./img/desktop/imagen@2x.png 2x"
+            media="(min-width:1000px)">
+
+            <img class="footerSimple__logo" src="" alt="Foto de perfil"> 
+
+        </picture>
+        <!-- ENLANCES -->
+        <ul class="footerSimple__links">
+            <li>Inicio</li>
+            <li>Servicios</li>
+            <li>Nosotros</li>
+            <li>Contactar</li>
+        </ul>
+
+        <!-- Copyright -->
+        <h6 class="footerSimple__copy">&copy;Copyright 2023</h6>
+    </footer>
+</div>
     <!-- JS -->
     <script src="index.js"></script>
 </body>
