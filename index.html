@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="navbarExtendido">
+        <nav class="navbarSimple">
+            <!-- PICTURE -->
+            <picture>
+                <!-- Smartphone -->
+                <source srcset="
+                ./img/smartphone/imagen@1x.png 1x,
+                ./img/smartphone/imagen@2x.png 2x,
+                ./img/smartphone/imagen@3x.png 3x"
+                media="(min-width:320px) and (orientation:portrait)">
+                
+                <!-- Desktop -->
+                <source srcset="
+                ./img/desktop/imagen@1x.png 1x,
+                ./img/desktop/imagen@2x.png 2x"
+                media="(min-width:1000px)">
+
+                <img class="navbarSimple__logo" src="" alt="Foto de perfil"> 
+            </picture>
+
+            <!-- ENLANCES -->
+            <ul class="navbarSimple__links">
+                <a>
+                    <img class="navbarSimple__links__svg" src="./img/svg/image.svg"></img>
+                    <span class="navbarSimple__links__span">Inicio</span>
+                </a>
+                <a>
+                    <img class="navbarSimple__links__svg"  src="./img/svg/image2.svg"></img>
+                    <span class="navbarSimple__links__span">Servicios</span>
+                </a>
+                <a>
+                    <img class="navbarSimple__links__svg"  src="./img/svg/image3.svg"></img>
+                    <span class="navbarSimple__links__span">Nosotros</span>
+                </a>
+                <a>
+                    <img class="navbarSimple__links__svg"  src="./img/svg/image4.svg"></img>
+                    <span class="navbarSimple__links__span">Contactar</span>
+                </a>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
