@@ -575,3 +575,7 @@ h4{
         flex-direction: row;
     }
 }
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
