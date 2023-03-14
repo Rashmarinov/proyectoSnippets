@@ -530,6 +530,8 @@ h4{
 
 .figcaption--circuloAzul{
     text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 .footerExtendido{
@@ -578,4 +580,14 @@ h4{
 
 a:link, a:visited, a:active {
     text-decoration:none;
+}
+
+.parrafo__nosotros{
+    margin: 50px;
+}
+
+.texto__nosotros{
+    column-count: 2;
+    margin: 50px;
+    column-gap: 70px;
 }
