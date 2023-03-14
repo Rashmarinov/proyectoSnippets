@@ -505,6 +505,7 @@ h4{
     margin: 0 auto;    
     /* margenes */
     box-sizing: border-box;
+    margin-bottom: 200px;
 }
 
 .tituloPersonal{
