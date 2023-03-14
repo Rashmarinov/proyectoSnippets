@@ -492,3 +492,41 @@ h4{
 .reverso{
     flex-flow: row-reverse wrap;
 }
+
+/* Contenedor */
+.containerPersonal{
+    display: flex;
+
+    /* fondo de la web */
+    background-color: white;
+    /* Ancho controlado */
+    max-width: 1366px;
+    /* Siempre en el centro de las pantallas */
+    margin: 0 auto;    
+    /* margenes */
+    box-sizing: border-box;
+}
+
+.tituloPersonal{
+    text-align: center;
+}
+.figure--Personal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.circuloAzul{    /* color */
+    background-color: rgb(99, 140, 216);
+    /* forma */
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+    /* margen */
+    margin: 10px;
+}
+
+.figcaption--circuloAzul{
+    text-align: center;
+}
